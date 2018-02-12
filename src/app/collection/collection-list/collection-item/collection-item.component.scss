@@ -1,0 +1,11 @@
+:host {
+  width: 100%;
+  background-color: aquamarine;
+  padding: 20px;
+  flex: 0 1 auto;
+
+  &:hover {
+    cursor: pointer;
+    background-color: aqua;
+  }
+}

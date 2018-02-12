@@ -1,0 +1,14 @@
+<app-collection-item
+  *ngFor="let collectionEl of collections"
+  [collection]="collectionEl">
+</app-collection-item>
+<input type="text"
+       id="name"
+       #nameInput>
+<input type="text"
+       id="desc"
+       #descInput>
+<input type="text"
+       id="item"
+       #itemInput>
+<button (click)="onAddCollection()">Add collection</button>

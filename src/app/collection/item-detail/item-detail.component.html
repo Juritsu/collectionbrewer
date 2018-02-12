@@ -1,0 +1,10 @@
+<div *ngIf="collection; else infoText">
+  <h2>{{ collection.name }}</h2>
+  <p>{{ collection.description }}</p>
+  <ul>
+    <li *ngFor="let item of collection.items">
+      {{ item.name }}, {{ item.amount }}
+    </li>
+  </ul>
+</div>
+<ng-template #infoText><p>Selecteer een collection</p></ng-template>
