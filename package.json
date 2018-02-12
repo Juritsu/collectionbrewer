@@ -22,6 +22,7 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
+    "normalize.css": "^8.0.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
@@ -44,5 +45,9 @@
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
-  }
+  },
+  "description": "first application for managing collections of recipes for homebrews",
+  "main": "index.js",
+  "repository": "git@github.com:Juritsu/collectionbrewer.git",
+  "author": "Jelle Hamming <jellehamming@gmail.com>"
 }
